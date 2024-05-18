@@ -18,26 +18,19 @@ body {
 }
 
 nav {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.233);
-    height: 60px;
-    border: 1px solid black;
     text-align: center;
-    border-radius: 5px;
+}
+
+ul {
+    position: relative;
 
 
 }
 
-nav > a {
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
+.link {
     
     
 }
-
 section {
     font-size: var(--fonte01);
     font-variant: small-caps;
@@ -63,7 +56,10 @@ img {
 
 }
 
-footer > p {
-   
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 
 }
