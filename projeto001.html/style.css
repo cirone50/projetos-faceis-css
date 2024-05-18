@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sedan+SC&display=swap');
 
 * {
     margin: 0px;
@@ -9,7 +9,7 @@
 :root {
     --cor01: #e8e5e480;
     --cor02: #7f7f7f;
-    --fonte01: "Bebas Neue", sans-serif;
+    --fonte01: serif;
     
 }
 
@@ -21,18 +21,10 @@ nav {
     text-align: center;
 }
 
-ul {
-    position: relative;
 
 
-}
-
-.link {
-    
-    
-}
 section {
-    font-size: var(--fonte01);
+    font-family: var(--fonte01);
     font-variant: small-caps;
     text-align: center;
 }
@@ -51,15 +43,35 @@ p#subtitulo {
 }
 
 img {
-    width: 500px;
-    height: 400px;
+    padding: 12px;
+    width: 600px;
+    height: 450px;
+    border-radius: 30px;
 
 }
+
+p.final {
+    font-family: var(--fonte01);
+    font-variant: small-caps;
+    font-size: 3rem;
+    text-align: center;
+    padding: 25vh 0vh;
+}
+
+#transparente {
+    color: #0000009a;
+    text-decoration: none;
+}
+
+#transparente:hover {
+    color: #00000054;
+}
+
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 7px
 
 }
